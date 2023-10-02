@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Quicksand:wght@600&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.container{
+    width: 100%;
+    background: linear-gradient(73deg, #262626 0%, rgba(38, 38, 38, 0.60) 99.8%);
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: #0f0f0f ;
+    width: 100%;
+    align-items: center;
+    font-family: 'Roboto',Helvetica,sans-serif;
+}
+.header-nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    margin-left: 8rem;
+}
+.header-nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    flex-wrap: wrap;
+
+}
+.nav2-box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.link a:hover{
+    color: chartreuse;
+    border-bottom: 2px solid chartreuse;
+    transition: .2s;
+    padding-bottom: 2px;
+
+}
+.nav2-box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%; 
+    font-family: 'Roboto',Helvetica,sans-serif;
+}
+.btn button{
+    height: 45px;
+    width:150px ;
+    font-size: 16px;
+    background-color: transparent;
+    border:1px solid #fff;
+    color: #fff;
+    border-radius: .3rem;
+}
+.btn button:hover{
+    cursor: pointer;
+    border: 1px solid yellow;
+    background-color: chartreuse;
+    color: yellow;
+}
+.btn button:active{
+    cursor: pointer;
+    border: 1px solid rgb(48, 13, 206);
+    background-color: chartreuse;
+    color: rgb(53, 22, 163);
+}
+.box2-icon{
+    display: none;
+}
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    width: 100%;
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    justify-content: space-around;
+    width: 660px;
+}
+.row1-text1{
+    font-family:'Roboto';
+    font-size: 45px;
+    color: #fff;
+    width: 70%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.row1-text1 span{
+    background: var(--gradient-purple-gradient-12, linear-gradient(90deg, #DA22FF 0%, #9733EE 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.row1-text2{
+    color: #FFF;
+    width: 70%;
+    margin-top: 2rem;
+    font-family:'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.row1-button{
+    width: 70%;
+    display: flex;
+    margin-top: 4%;
+}
+.mybtn button{
+    border: none;
+    color: #000;
+    width: 180px;
+    font-size: 14px;
+    overflow: hidden;
+    background: var(--gradient-orange-gradient-5, linear-gradient(90deg, #FFE259 0%, #FFA751 100%));
+}
+
+.row2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+    margin-right: 5px;
+    margin: 5% 0% 5% 0%;
+}
+.row2 img{
+    height: 400px;
+    margin-left: auto;
+}
+.row2 span {
+    position: absolute;
+    margin-right: 50px;
+    margin-top: 43px;
+}
+.row2 span img{
+    height: 300px;
+    margin-top: 60px;
+    margin-right: 60px;
+   
+}
